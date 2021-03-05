@@ -1,0 +1,15 @@
+<mat-card-actions class="d-flex flex-column">
+    <div class="d-flex justify-content-around align-items-center mb-2 ctn-controler">
+        <button class="btn-controler d-flex" (click)="remove()">
+            <mat-icon>remove</mat-icon>
+        </button>
+        <span class="align-middle">{{total}}</span><span>UND</span>
+        <button class="btn-controler d-flex"  (click)="add()">
+            <mat-icon>add</mat-icon>
+        </button>
+    </div>
+    <button class="btn-cart" mat-raised-button (click)="showAlert()">
+        <mat-icon>shopping_cart</mat-icon>
+        Agregar
+    </button>
+</mat-card-actions>

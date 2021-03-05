@@ -1,0 +1,17 @@
+<svg id="ima_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1567" data-name="Rectángulo 1567" width="64" height="64.388" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="logo_kacera" data-name="logo kacera" transform="translate(33.331 34.179)">
+    <g id="Grupo_3557" data-name="Grupo 3557" transform="translate(-17.3 -17.405)" clip-path="url(#clip-path)">
+      <path id="Trazado_14362" data-name="Trazado 14362" d="M19.559,25.156S14.75,19.422,16.23,12.763s6.1-7.214,7.954-9.249A7.214,7.214,0,0,0,26.218,0s4.624,8.324,1.85,14.8-6.1,6.289-8.694,10.543" transform="translate(13.55 0)"/>
+      <path id="Trazado_14363" data-name="Trazado 14363" d="M20.5,21.172s4.809-5.734,11.653-5.364S40.292,20.617,42.7,22.1a7.214,7.214,0,0,0,3.884,1.295s-7.4,5.919-14.058,4.439-7.4-4.809-11.838-6.659" transform="translate(17.419 13.418)"/>
+      <path id="Trazado_14364" data-name="Trazado 14364" d="M24.971,21.648s-2.4-7.214-8.694-9.249-9.249,1.295-12.023,1.85A7.214,7.214,0,0,1,0,13.879S4.624,22.2,11.468,23.313s8.694-1.85,13.5-1.665" transform="translate(0 9.982)"/>
+      <path id="Trazado_14365" data-name="Trazado 14365" d="M20.561,21.385s4.624,5.919,2.96,12.393-6.289,7.029-8.139,9.064a7.214,7.214,0,0,0-2.035,3.514s-4.439-8.509-1.48-14.8,6.289-6.1,8.879-10.358" transform="translate(9.219 18.014)"/>
+      <path id="Trazado_14366" data-name="Trazado 14366" d="M22.1,19.919a3.514,3.514,0,1,1-2.59-4.069,3.514,3.514,0,0,1,2.59,4.069" transform="translate(12.86 13.376)"/>
+    </g>
+  </g>
+  <rect id="Rectángulo_1572" data-name="Rectángulo 1572" width="96" height="96" fill="none"/>
+</svg>

@@ -1,0 +1,15 @@
+button{
+    background-color: #1AC91E;
+    color: #fff;
+}
+
+@media (max-width:599px){
+    .ctn-prod{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

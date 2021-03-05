@@ -1,0 +1,31 @@
+<div [ngClass]= "{'show':showCarousel==='true', 'hiden':showCarousel===''}">
+    <app-carousel  #carousel 
+        [showControls]="false">
+      <ng-container  *ngFor=" let item of items">
+        <div *carouselSlide class="ctn-carousel"  style="width:200px;display:inline-block; margin-right: 50px;">
+          <img [src]="item.img" class="card-img-top" >
+      <div class="bg-white mt-3">
+        <mat-card-title  class="fs-5 text fw-bold">Arandanos</mat-card-title>
+        <mat-card-subtitle class="text-decoration-line-through"><span>S/.</span>5.80</mat-card-subtitle>
+        <mat-card-title  class="fs-5 text fw-bold"><span>S/.</span>5.00</mat-card-title>
+      </div>
+      <div class="card-body">
+        <app-btn-control></app-btn-control>
+      </div>
+    </div>
+        </ng-container>
+        <!-- I create a custom buttons. We can not create the two divs "prev-button" and "next-button", removing [showControls]="false"
+        Our carousel show the buttons by defect in middle of the carousel
+        -->
+      <div class="prev-button btnLef d-flex" (click)="carousel.prev()">
+        <a class="carousel-control-prev-icon bg-secondary"></a>
+      </div>
+      <div class="next-button btnRigth" (click)="carousel.next()">
+                <a class="carousel-control-next-icon bg-secondary"></a>
+      </div>
+    </app-carousel>
+    </div>
+    <div class="fs-5 fw-bold border ctn-pedidos">
+      Los más pedidos
+    </div>
+    

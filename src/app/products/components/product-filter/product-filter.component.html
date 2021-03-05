@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-end cnt-filter">
+<mat-tab-group  animationDuration = "0ms" > 
+  <mat-tab  label = "Ofertas del día" ><app-offers [showCarousel]="showCarousel"></app-offers></mat-tab> 
+  <mat-tab *ngFor="let categoria of categorias" label = {{categoria.nombre}}><app-products-store [categoria] = categoria></app-products-store></mat-tab>
+  <mat-tab class="border"  label = "Frutas" > <app-products-store></app-products-store></mat-tab> 
+</mat-tab-group >
+</div>

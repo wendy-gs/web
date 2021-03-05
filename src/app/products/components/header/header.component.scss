@@ -1,0 +1,56 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .alinear {
+    text-align: center;
+    align-items: center;
+  }
+  .color{
+      background-color: #30BF44;
+  }
+  .ocultar{
+    display: none;
+  }
+
+  form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #EAEAEA;
+    border-radius: 16px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  mat-toolbar{
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    background-color: #fff;
+  }
+  .toggle{
+    display: flex;
+    align-self:center;
+    justify-content: space-between;
+  }
+  input{
+    border: none;
+    background-color: #EAEAEA;
+    width: 100%;
+    outline: none;
+  }
+  @media (min-width:599px){
+    .btn-cart{
+      display: flex;
+    }
+    mat-toolbar{
+      flex-direction: row;
+      justify-content:space-around ;
+      
+    }
+    
+    form{
+      width: 52%;
+    }
+    
+  }

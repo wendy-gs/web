@@ -1,0 +1,29 @@
+
+<mat-toolbar class="bg-white">
+    <div class="d-flex align-self-center">
+    <div fxHide.gt-xs class="toggle">
+        <button mat-icon-button (click)="onToggleSidenav()" >
+           <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+        <img src="../../../assets/ima_logo.svg">
+        <div class="d-flex align-self-center fs-2 fw-bold">Te extrañamos</div>
+    </div>
+      <form class="example-form">
+        <mat-icon class="ms-1 me-2" matPrefix>search</mat-icon>
+        <input class="fs-6 " type="tel" matInput placeholder="¿Que quieres comer hoy" />
+      </form>
+
+   <div class="btn-cart ocultar">
+    <button class="me-2" mat-icon-button>
+        <mat-icon matBadge="15" matBadgeColor="warn" matBadgePosition="below after">shopping_cart</mat-icon>
+        
+    </button>
+    <button class="ms-3 d-flex  btn color text-light" aria-label="Example icon-button with share icon">
+        <span><mat-icon class="align-middle">account_circle</mat-icon>
+        Registrate
+    </span>
+    </button>
+</div>
+</mat-toolbar>
+

@@ -1,0 +1,13 @@
+mat-tab-group{
+  width: 90%;
+}
+.cnt-filter{
+  clear: both;
+}
+@media (max-width:599px){
+  mat-tab-group{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+}

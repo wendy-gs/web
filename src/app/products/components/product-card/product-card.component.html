@@ -1,0 +1,27 @@
+
+<mat-card class="example-card mb-1 mt-4">
+    <div class="img-cart d-flex justify-content-center align-items-center">
+        <img mat-card-image src="{{producto.imagenproducto}}" alt="Photo of a Shiba Inu">
+    </div>
+    <mat-card-content>
+        <mat-card-title class="fs-6 text fw-bold">{{producto.producto}}</mat-card-title>
+        <mat-card-subtitle class="text-decoration-line-through"><span>S/.</span>{{producto.costopublico}}</mat-card-subtitle>
+        <mat-card-title class="fs-6 text fw-bold"><span>S/.</span>{{producto.costopublico}}</mat-card-title>
+    </mat-card-content>
+    <mat-card-actions class="d-flex flex-column  align-items-center">
+        <div class="d-flex justify-content-around align-items-center ctn-controler">
+            <button class="btn-controler d-flex" (click)="remove(producto.unidadmedida,producto)">
+                <mat-icon>remove</mat-icon>
+            </button>
+            <span class="align-middle">{{total}}</span><span>{{producto.unidadmedida}}</span>
+            <button class="btn-controler d-flex"  (click)="add(producto.unidadmedida,producto)">
+                <mat-icon>add</mat-icon>
+            </button>
+        </div>
+        <button  [ngClass]="btn.active" mat-raised-button (click)="showAlert(producto, total)">
+            <mat-icon>shopping_cart</mat-icon>
+            Agregar
+        </button>
+    </mat-card-actions>
+  </mat-card>
+  

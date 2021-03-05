@@ -1,0 +1,16 @@
+.notif{
+    background: transparent linear-gradient(282deg, #30BF44 0%, var(--unnamed-color-c7e959) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(282deg, #30BF44 0%, #C7E959 100%) 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    padding-top:8px ;
+    padding-bottom:8px ;
+    bottom:0px; /*Abajo deje un espacio de 0px*/
+    z-index: 100
+}
+
+.cantidad{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #1AC91E;
+}

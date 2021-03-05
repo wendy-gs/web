@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-center ctn-prod">
+<div class="d-flex justify-content-center">
+    <div fxLayout="row wrap"
+    fxLayout.xs="column" 
+    fxLayoutAlign="center stretch"  
+    fxLayoutGap="30px" 
+    class="contenedor-card"
+    >
+    <div  class="d-flex justify-content-center align-items-center"
+        fxFlex="15"
+        fxFlex.lg="15"
+        fxFlex.sm= "24"
+        *ngFor="let producto of products">
+        <app-product-card [producto] ="producto" ></app-product-card>
+    </div>
+</div>
+</div>
+</div>
